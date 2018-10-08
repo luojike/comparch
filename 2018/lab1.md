@@ -32,7 +32,7 @@ FFT的算法可以参考[这里](https://en.wikipedia.org/wiki/Cooley%E2%80%93Tu
 
 通过分析FFT算法代码，可以得到该FFT算法的时间复杂度具体公式为：
 
-$$c\*nlogn$$
+*c\*n\*logn*
 
 其中*n*为数据大小，未知数有：
 
