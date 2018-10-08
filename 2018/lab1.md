@@ -28,7 +28,7 @@
 
 FFT的算法可以参考[这里](https://en.wikipedia.org/wiki/Cooley%E2%80%93Tukey_FFT_algorithm)。
 
-'''c++
+```c++
 /* fft.cpp
  * 
  * This is a KISS implementation of
@@ -214,7 +214,7 @@ class Program
         Console.ReadKey();
     }
 }
-'''
+```
 
 ### FFT程序时间复杂度分析
 
