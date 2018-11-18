@@ -27,6 +27,8 @@
 
 GEM5的官方文档在[这里](http://gem5.org/Documentation), 包括了安装和使用说明。
 
+GEM5网站也提供了x86-64系统Linux镜像下载，可以在GEM5的[下载](http://gem5.org/Download)页面找到。
+
 大家也可以参考[这篇博客文章](https://blog.csdn.net/u012822903/article/details/62444286)及其相关文章，了解如何利用GEM5进行Linux全系统模拟和运行自己的测试程序。
 
 ### 利用GEM5测试FFT程序在x86-64系统上的性能
