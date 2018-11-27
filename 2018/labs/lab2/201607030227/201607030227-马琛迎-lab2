@@ -1,0 +1,116 @@
+# 实验报告
+
+## 实验名称（多线程FFT程序性能分析和测试）
+
+智能1602 201607030227 马琛迎
+
+## 实验目标
+
+测量多线程FFT程序运行时间，考察线程数目增加时运行时间的变化。
+
+## 实验要求
+
+* 采用C/C++编写程序，选择合适的运行时间测量方法
+* 根据自己的机器配置选择合适的输入数据大小 n，保证足够长度的运行时间
+  直接采用源代码中作者给出的数据规模：N = 1024
+* 对于不同的线程数目，建议至少选择 1 个，2 个，4 个，8 个，16 个线程进行测试
+  在一开始进行测试的时候，发现当线程数小于6的时候，程序就无法结束，最后发现在代码中：
+  ![thread_id](https://github.com/luojike/comparch/blob/master/2018/labs/lab2/201607030227/thread_id.png)
+  在这里if语句中会判断如果一开始线程id不等于5（id=5的线程是第六个线程），就无法调用函数pthread_cond_signal(&exitCond)释放信号量，
+  所以程序救会一直阻塞，所以想要能够运行6以下的线程，将if中的条件改为if(thread_id == 0)
+  * thread_num = 1:
+    ![thread_1](https://github.com/luojike/comparch/blob/master/2018/labs/lab2/201607030227/thread_1.png)
+  * thread_num = 2:
+    ![thread_1](https://github.com/luojike/comparch/blob/master/2018/labs/lab2/201607030227/thread_2.png)
+  * thread_num = 4:
+    ![thread_1](https://github.com/luojike/comparch/blob/master/2018/labs/lab2/201607030227/thread_4.png)
+  * thread_num = 8:
+    ![thread_1](https://github.com/luojike/comparch/blob/master/2018/labs/lab2/201607030227/thread_8.png)
+  * thread_num = 16:
+    ![thread_1](https://github.com/luojike/comparch/blob/master/2018/labs/lab2/201607030227/thread_16.png) 
+  观察可以发现，运行时间按thread num排序：2 < 1 < 4 < 8 < 16，跟预期的情况不太一样。
+  在实际情况中，当线程数过多时，可能会有较多的上下文切换，会影响运行时间，多少线程最合适，跟机器有关。
+  查看自己电脑的CPU:
+  ![core](https://github.com/luojike/comparch/blob/master/2018/labs/lab2/201607030227/core.png)
+  查看发现自己的机器是四线程，但是为什么在运行程序的时候2线程就达到性能的极限了呢？猜想可能是因为虽然机器是4线程，但是实际并不是所有线程都可以拿来跑FFT多线程的程序。
+  另外可能是由于，虽然线程数较多，但是有一些需要串行的操作，这样导致某些线程不得不等待，从而出现了线程更多时性能反而下降的情况。
+* 回答思考题，答案加入到实验报告叙述中合适位置
+
+## 思考题
+
+1. pthread是什么？怎么使用？
+   pthread是一个有关线程的一些操作，以代码中出现的操作为例：
+   (1) pthread_create
+       ![thread_creat](https://github.com/luojike/comparch/blob/master/2018/labs/lab2/201607030227/pthread_creat.png)
+       这是最基本的线程操作-创建线程（实际上就是确定调用该线程函数的入口点），在线程创建以后，就开始运行相关的线程函数。
+       函数原型：int  pthread_create（（pthread_t  *thread,pthread_attr_t  *attr,void  *（*start_routine）（void  *）,void  *arg）
+       thread：线程标识符；attr：线程属性设置；start_routine：线程函数的起始地址；arg：传递给start_routine的参数；
+   (2) 在多线程编程的时候，必须要考虑同步问题，在实验代码中主要使用的是mutex和cond来实现线程同步。
+       ![thread_cond1](https://github.com/luojike/comparch/blob/master/2018/labs/lab2/201607030227/pthread_cond_wait.png)
+       ![thread_cond2](https://github.com/luojike/comparch/blob/master/2018/labs/lab2/201607030227/pthread_cont_signal.png)
+       ![thread_mutex](https://github.com/luojike/comparch/blob/master/2018/labs/lab2/201607030227/pthread_mutex_lock.png)
+       mutex为互斥锁，cond为条件锁，都是为了防止线程间出现冲突，具体用法可参见：
+       [mutex](https://blog.csdn.net/zmxiangde_88/article/details/7998458)
+       [cond](https://blog.csdn.net/ffilman/article/details/4871920)
+2. 多线程相对于单线程理论上能提升多少性能？多线程的开销有哪些？
+   理论上，如果能够完全的按照多线程执行，多线程应该可以将性能提高至少1/2，因为增加一个线程实际上相当于将以恶搞程序分成两部分并行执行。
+   多线程的开销主要有，创建线程，线程乎斥等待，以及最基本的上下文切换等等。
+3. 实际运行中多线程相对于单线程是否提升了性能？与理论预测相差多少？可能的原因是什么？
+   实际上基本没有提升，大部分元应该该是自己机器的问题，而且在多线程程序中，可能程序也并不能完全的按照多线程运行，会有一些必须的等待。
+## 实验内容
+
+### 多线程FFT代码
+
+多线程FFT的代码可以参考[这里](https://github.com/urgv/pthreads-fft2d)。
+
+该代码采用了pthread库来实现多线程，使用到的多线程函数有：
+pthread_create();
+pthread_mutex_init();
+pthread_mutex_lock();
+pthread_mutex_unlock();
+pthread_cond_init();
+pthread_cond_wait();
+pthread_cond_signal();
+
+### 多线程FFT程序性能分析
+
+通过分析多线程FFT程序代码，可以推断多线程FFT程序相对于单线程情况可达到的加速比应为：
+
+在程序中，将原先的FFT程序分成了多线程来执行，分析性能的提高应该是与线程数成正比的。
+
+## 测试
+
+### 测试平台
+
+在如下机器上进行了测试：
+
+| 部件     | 配置             | 备注   |
+| :--------|:----------------:| :-----:|
+| CPU      | core i5-6500U    |        |
+| 内存     | DDR3 4GB         |        |
+| 操作系统 | Ubuntu 16.04 LTS | 中文版 |
+
+
+### 测试记录
+
+多线程FFT程序的测试参数如下：
+
+| 参数     | 取值             | 备注   |
+| :--------|:----------------:| :-----:|
+| 数据规模 | 1024             |        |
+| 线程数目 | 1,2,4,8,16       |        |
+
+
+多线程FFT程序运行过程的截图如下：
+
+FFT程序的输出
+
+以16线程为例：
+![1](https://github.com/luojike/comparch/blob/master/2018/labs/lab2/201607030227/1.png)
+![2](https://github.com/luojike/comparch/blob/master/2018/labs/lab2/201607030227/2.png)
+![3](https://github.com/luojike/comparch/blob/master/2018/labs/lab2/201607030227/3.png)
+
+## 分析和结论
+
+从测试记录来看，FFT程序的执行时间并没有非常好的按照线程数的增加而性能有所提高，分析原因应该主要是机器的问题，因为结果实在是很不理想。
+
