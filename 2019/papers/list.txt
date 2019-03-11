@@ -1,0 +1,38 @@
+1993-Workload Characterization.pdf
+2000-An Introduction to Quantum Computing for Non-Physicists.pdf
+2003-A Survey of Processors with Explicit Multithreading.pdf
+2004-ASurvey of Peer-to-Peer Content Distribution Technologies.pdf
+2007-TRANSACTIONALMEMORY.pdf
+2008-Database Optimizations forModern Hardware.pdf
+2008-PARALLELCOMPUTINGEXPERIENCESWITHCUDA.pdf
+2008-Scalable ProgrammingModels for MassivelyMulticore Processors.pdf
+2009-Ten Ways to Waste a Parallel Computer.pdf
+2011-Exascale Opportunities and Challenges.pdf
+2012-A Survey of State Persistency in Peer-to-PeerMassively Multiplayer Online Games.pdf
+2015-A Survey of Performance Modelingand Simulation Techniques forAccelerator-Based Computing.pdf
+2015-Partitioned Global Address Space Languages.pdf
+2016-60A Closer Look at GPGPU.pdf
+2016-Accelerating Architectural Simulation ViaStatistical Techniques.pdf
+2016-A non von Neumann Continuum Computer Architecture forScalability Beyond Moores Law.pdf
+2016-A Survey of Emerging Interconnects for On-Chip Efficient Multicast and Broadcast in Many-Cores.pdf
+2016-A Survey of Techniques for Architecting and ManagingAsymmetric Multicore Processors.pdf
+2016-A Survey Of Techniques for ArchitectingDRAM Caches.pdf
+2016-A Survey of Techniques for Modeling andImproving Reliability of Computing Systems.pdf
+2016-A Survey on Thread-Level Speculation Techniques.pdf
+2016-Interconnection Networks in Petascale Computer Systems.pdf
+2016-Parallel Processing Systems forBig Data.pdf
+2016-Suitability Analysis of FPGAsfor Heterogeneous Platforms in HPC.pdf
+2017-An Integrated Tutorial on InfiniBand.pdf
+2017-A Survey of Power and Energy Predictive Models in HPC Systemsand Applications.pdf
+2017-A Survey of Techniques for Architectingand Managing GPU Register File.pdf
+2017-Distribution System Optimization onGraphics Processing Unit.pdf
+2017-Survey on Real-Time Networks-on-Chip.pdf
+2018-A Checkpoint of Research on Parallel IO forHigh-Performance Computing.pdf
+2018-Approximate Communication Techniques for ReducingCommunication Bottlenecks in Large-Scale Parallel Systems.pdf
+2018-A Survey of Recent Trends in TestingConcurrent Software Systems.pdf
+2018-Benchmarking Heterogeneous HPC SystemsIncluding Reconfigurable Fabrics.pdf
+2018-Enabling Highly Scalable Remote Memory Access Programming with MPI-3 One Sided.pdf
+2018-Graph Processing on GPUs.pdf
+2019-A Survey of On-Chip Optical Interconnects.pdf
+2019-A survey on data storage and placement methodologies for Cloud‑Big Data ecosystem.pdf
+2019-Predicting New Workload or CPU Performanceby Analyzing Public Datasets.pdf
