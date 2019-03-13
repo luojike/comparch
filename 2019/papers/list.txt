@@ -34,5 +34,5 @@
 2018-Enabling Highly Scalable Remote Memory Access Programming with MPI-3 One Sided.pdf
 2018-Graph Processing on GPUs.pdf
 2019-A Survey of On-Chip Optical Interconnects.pdf
-2019-A survey on data storage and placement methodologies for Cloud‑Big Data ecosystem.pdf
+易子越/2019-A survey on data storage and placement methodologies for Cloud‑Big Data ecosystem.pdf
 2019-Predicting New Workload or CPU Performanceby Analyzing Public Datasets.pdf
