@@ -73,7 +73,7 @@
     69	2018-Approximate Communication Techniques for ReducingCommunication Bottlenecks in Large-Scale Parallel Systems.pdf
     70	2018-A Survey of Desktop Grid Scheduling.pdf
     71	2018-A Survey of Recent Trends in TestingConcurrent Software Systems.pdf
-    72 	2018-A深度学习调查.pdf  S1810W0762 黄芸
+    72 	2018-A Survey on Deep Learning.pdf S1810W0762 黄芸
     73	2018-A Taxonomy and Future Directions for Sustainable CloudComputing.pdf
     74	2018-Auto-Scaling Web Applications in Clouds.pdf
     75	2018-Benchmarking Heterogeneous HPC SystemsIncluding Reconfigurable Fabrics.pdf
