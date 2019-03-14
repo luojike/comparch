@@ -82,7 +82,7 @@
     78	2018-DistributedcomputingbyleveragingandrewardingidlinguserresourcesfromP2Pnetworks.pdf
     79	2018-Enabling Highly Scalable Remote Memory Access Programming with MPI-3 One Sided.pdf
     80	2018-Energy-Quality Scalable Integrated Circuits andSystems.pdf
-    81	2018-Fog Computing.pdf
+    81	2018-Fog Computing.pdf  王琛(S1810W0773)
     82	2018-FPGA Dynamic and Partial Reconfiguration.pdf
     83	2018-Graph Processing on GPUs.pdf   S1810W0756 陈东
     84	2018-Modern debugging.pdf
