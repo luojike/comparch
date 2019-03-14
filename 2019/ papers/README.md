@@ -84,7 +84,7 @@
     80	2018-Energy-Quality Scalable Integrated Circuits andSystems.pdf
     81	2018-Fog Computing.pdf
     82	2018-FPGA Dynamic and Partial Reconfiguration.pdf
-    83	2018-Graph Processing on GPUs.pdf
+    83	2018-Graph Processing on GPUs.pdf   S1810W0756 陈东
     84	2018-Modern debugging.pdf
     85	2018-Quantum Computing is Getting Real.pdf
     86	2018-Scheduling parallel tasks with energy and time constraints on multiple manycore processors in a cloud computing environment.pdf
