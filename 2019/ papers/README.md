@@ -89,7 +89,7 @@
     85	2018-Quantum Computing is Getting Real.pdf
     86	2018-Scheduling parallel tasks with energy and time constraints on multiple manycore processors in a cloud computing environment.pdf
     87	2019-AsurveyofarchitecturalapproachesforimprovingGPGPUperformanceprogrammabilityandheterogeneity.pdf
-    88	2019-A Survey of Communication Performance Models for High-Performance Computing.pdf S1810W0750 刘聪
+    88	2019-A Survey of Communication Performance Models for High-Performance Computing.pdf 
     89	2019-A Survey of On-Chip Optical Interconnects.pdf
     90	2019-A survey on data storage and placement methodologies for Cloud‑Big Data ecosystem.pdf S1810W0714 许芳芳
     91	2019-Edgecomputing.pdf
