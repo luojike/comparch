@@ -91,7 +91,7 @@
     87	2019-AsurveyofarchitecturalapproachesforimprovingGPGPUperformanceprogrammabilityandheterogeneity.pdf
     88	2019-A Survey of Communication Performance Models for High-Performance Computing.pdf
     89	2019-A Survey of On-Chip Optical Interconnects.pdf
-    90	2019-A survey on data storage and placement methodologies for Cloud‑Big Data ecosystem.pdf
+    90	2019-A survey on data storage and placement methodologies for Cloud‑Big Data ecosystem.pdf S1810W0769 易子越 S181000879 郭涛
     91	2019-Edgecomputing.pdf
     92	2019-Evaluationandmodelingofthesupercoreparallelizationpatterninautomotivereal-timesystems.pdf
     93	2019-Parallel Computing of Support Vector Machines.pdf  S1810W0791 刘桃忆
