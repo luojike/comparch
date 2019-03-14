@@ -68,7 +68,7 @@
     64	2017-A Taxonomy and Survey of Cloud Resource Orchestration Techniques.pdf
     65	2017-Distribution System Optimization onGraphics Processing Unit.pdf
     66	2017-Survey on Real-Time Networks-on-Chip.pdf
-    67	2018-A Checkpoint of Research on Parallel IO forHigh-Performance Computing.pdf
+    67	2018-A Checkpoint of Research on Parallel IO forHigh-Performance Computing.pdf S1810W0801 林海增
     68	2018-A Manifesto for Future Generation Cloud Computing.pdf S1810W0797 朱帅
     69	2018-Approximate Communication Techniques for ReducingCommunication Bottlenecks in Large-Scale Parallel Systems.pdf
     70	2018-A Survey of Desktop Grid Scheduling.pdf
