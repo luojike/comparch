@@ -60,7 +60,7 @@
     56	2016-Suitability Analysis of FPGAsfor Heterogeneous Platforms in HPC.pdf
     57	2016-The features hardware and architectures of data center networks A survey.pdf
     58	2017-5G.pdf
-    59	2017-Advances in the Quantum Theoretical Approach to ImageProcessing Applications.pdf
+    59	2017-Advances in the Quantum Theoretical Approach to ImageProcessing Applications.pdf   周苏（S1810W0757）
     60	2017-An Integrated Tutorial on InfiniBand.pdf
     61	2017-Architecture and applications for an All-FPGA parallel computer.pdf
     62	2017-A Survey of Power and Energy Predictive Models in HPC Systemsand Applications.pdf
