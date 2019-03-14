@@ -58,7 +58,7 @@
     54	2016-Interconnection Networks in Petascale Computer Systems.pdf
     55	2016-Parallel Processing Systems forBig Data.pdf S1810W0799 刘云浩
     56	2016-Suitability Analysis of FPGAsfor Heterogeneous Platforms in HPC.pdf
-    57	2016-The features hardware and architectures of data center networks A survey.pdf 刘聪(S1810W0750)
+    57	2016-The features hardware and architectures of data center networks A survey.pdf 
     58	2017-5G.pdf
     59	2017-Advances in the Quantum Theoretical Approach to ImageProcessing Applications.pdf   周苏（S1810W0757）
     60	2017-An Integrated Tutorial on InfiniBand.pdf
@@ -77,7 +77,7 @@
     73	2018-A Taxonomy and Future Directions for Sustainable CloudComputing.pdf
     74	2018-Auto-Scaling Web Applications in Clouds.pdf
     75	2018-Benchmarking Heterogeneous HPC SystemsIncluding Reconfigurable Fabrics.pdf
-    76	2018-BigDataforInternetofThings.pdf
+    76	2018-BigDataforInternetofThings.pdf 刘聪(S1810W0750)
     77	2018-Commoditysingleboardcomputerclustersandtheirapplications.pdf
     78	2018-DistributedcomputingbyleveragingandrewardingidlinguserresourcesfromP2Pnetworks.pdf
     79	2018-Enabling Highly Scalable Remote Memory Access Programming with MPI-3 One Sided.pdf
@@ -92,7 +92,7 @@
     88	2019-A Survey of Communication Performance Models for High-Performance Computing.pdf 
     89	2019-A Survey of On-Chip Optical Interconnects.pdf
     90	2019-A survey on data storage and placement methodologies for Cloud‑Big Data ecosystem.pdf S1810W0714 许芳芳
-    91	2019-Edgecomputing.pdf
+    91	2019-Edgecomputing.pdf 刘聪(S1810W0750)
     92	2019-Evaluationandmodelingofthesupercoreparallelizationpatterninautomotivereal-timesystems.pdf
     93	2019-Parallel Computing of Support Vector Machines.pdf  S1810W0791 刘桃忆
     94	2019-Post-Quantum Lattice-Based CryptographyImplementations.pdf
