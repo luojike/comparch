@@ -69,7 +69,7 @@
     65	2017-Distribution System Optimization onGraphics Processing Unit.pdf
     66	2017-Survey on Real-Time Networks-on-Chip.pdf
     67	2018-A Checkpoint of Research on Parallel IO forHigh-Performance Computing.pdf
-    68	2018-A Manifesto for Future Generation Cloud Computing.pdf
+    68	2018-A Manifesto for Future Generation Cloud Computing.pdf S1810W0797 朱帅
     69	2018-Approximate Communication Techniques for ReducingCommunication Bottlenecks in Large-Scale Parallel Systems.pdf
     70	2018-A Survey of Desktop Grid Scheduling.pdf
     71	2018-A Survey of Recent Trends in TestingConcurrent Software Systems.pdf
@@ -94,7 +94,7 @@
     90	2019-A survey on data storage and placement methodologies for Cloud‑Big Data ecosystem.pdf
     91	2019-Edgecomputing.pdf
     92	2019-Evaluationandmodelingofthesupercoreparallelizationpatterninautomotivereal-timesystems.pdf
-    93	2019-Parallel Computing of Support Vector Machines.pdf
+    93	2019-Parallel Computing of Support Vector Machines.pdf  S1810W0791 刘桃忆
     94	2019-Post-Quantum Lattice-Based CryptographyImplementations.pdf
     95	2019-Predicting New Workload or CPU Performanceby Analyzing Public Datasets.pdf
     96	2019-Towards the Decentralised Cloud.pdf
