@@ -7,7 +7,7 @@
      3	1994-RAID.pdf
      4	1995-Interrupt Processing in Concurrent Processors.pdf
      5	1996-A Survey of Heterogeneous  Computing.pdf
-     6	1996-Parallel Architectures.pdf
+     6	1996-Parallel Architectures.pdf S1810W0799 刘云浩 
      7	1998-Models and Languages for Parallel Computation.pdf
      8	1999-Reasoning about Grovers Quantum SearchAlgorithm Using Probabilisticwp.pdf
      9	2000-An Introduction to Quantum Computing for Non-Physicists.pdf
@@ -56,7 +56,7 @@
     52	2016-A Survey on GPU-Based Implementation ofSwarm Intelligence Algorithms.pdf
     53	2016-A Survey on Thread-Level Speculation Techniques.pdf
     54	2016-Interconnection Networks in Petascale Computer Systems.pdf
-    55	2016-Parallel Processing Systems forBig Data.pdf
+    55	2016-Parallel Processing Systems forBig Data.pdf S1810W0799 刘云浩
     56	2016-Suitability Analysis of FPGAsfor Heterogeneous Platforms in HPC.pdf
     57	2016-The features hardware and architectures of data center networks A survey.pdf
     58	2017-5G.pdf
