@@ -97,5 +97,5 @@
     93	2019-Parallel Computing of Support Vector Machines.pdf  S1810W0791 刘桃忆
     94	2019-Post-Quantum Lattice-Based CryptographyImplementations.pdf
     95	2019-Predicting New Workload or CPU Performanceby Analyzing Public Datasets.pdf
-    96	2019-Towards the Decentralised Cloud.pdf
+    96	2019-Towards the Decentralised Cloud.pdf S1810W0769 易子越
     97	2019-Web Portals for High-performance Computing.pdf
