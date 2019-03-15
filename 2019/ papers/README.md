@@ -42,11 +42,11 @@
     38	2015-A Survey on 5G.pdf
     39	2015-Cloud Computing Applications forSmart Grid.pdf
     40	2015-Cloud Computing Resource Scheduling and a Surveyof Its Evolutionary Approaches.pdf 陈玉霞 s810w0717
-    41	2015-Memory andInformation Processingin Neuromorphic Systems.pdf
+    41	2015-Memory andInformation Processingin Neuromorphic Systems.pdf S1810W0788 陈健
     42	2015-Partitioned Global Address Space Languages.pdf
     43	2015-RDF in the clouds.pdf
     44	2016-60A Closer Look at GPGPU.pdf
-    45	2016-Accelerating Architectural Simulation ViaStatistical Techniques.pdf
+    45	2016-Accelerating Architectural Simulation ViaStatistical Techniques.pdf S1810W0788 陈健
     46	2016-A non von Neumann Continuum Computer Architecture forScalability Beyond Moores Law.pdf
     47	2016-A Survey and Evaluation of Data Center Network Topologies.pdf
     48	2016-A Survey of Emerging Interconnects for On-Chip Efficient Multicast and Broadcast in Many-Cores.pdf
