@@ -7,7 +7,7 @@
      3	1994-RAID.pdf
      4	1995-Interrupt Processing in Concurrent Processors.pdf
      5	1996-A Survey of Heterogeneous  Computing.pdf
-     6	1996-Parallel Architectures.pdf S1810W0799 刘云浩 
+     6	1996-Parallel Architectures.pdf 
      7	1998-Models and Languages for Parallel Computation.pdf
      8	1999-Reasoning about Grovers Quantum SearchAlgorithm Using Probabilisticwp.pdf
      9	2000-An Introduction to Quantum Computing for Non-Physicists.pdf
@@ -98,4 +98,4 @@
     94	2019-Post-Quantum Lattice-Based CryptographyImplementations.pdf
     95	2019-Predicting New Workload or CPU Performanceby Analyzing Public Datasets.pdf S1810W0737 杜亮
     96	2019-Towards the Decentralised Cloud.pdf S1810W0769 易子越
-    97	2019-Web Portals for High-performance Computing.pdf S1810W0720 张磊
+    97	2019-Web Portals for High-performance Computing.pdf
