@@ -71,11 +71,11 @@
     67	2018-A Checkpoint of Research on Parallel IO forHigh-Performance Computing.pdf S1810W0801 林海增
     68	2018-A Manifesto for Future Generation Cloud Computing.pdf S1810W0797 朱帅
     69	2018-Approximate Communication Techniques for ReducingCommunication Bottlenecks in Large-Scale Parallel Systems.pdf
-    70	2018-A Survey of Desktop Grid Scheduling.pdf  1
+    70	2018-A Survey of Desktop Grid Scheduling.pdf  
     71	2018-A Survey of Recent Trends in TestingConcurrent Software Systems.pdf
     72 	2018-A Survey on Deep Learning.pdf S1810W0762 黄芸
     73	2018-A Taxonomy and Future Directions for Sustainable CloudComputing.pdf
-    74	2018-Auto-Scaling Web Applications in Clouds.pdf
+    74	2018-Auto-Scaling Web Applications in Clouds.pdf S1810W0739冯潇逸
     75	2018-Benchmarking Heterogeneous HPC SystemsIncluding Reconfigurable Fabrics.pdf
     76	2018-BigDataforInternetofThings.pdf 刘聪(S1810W0750)
     77	2018-Commoditysingleboardcomputerclustersandtheirapplications.pdf
