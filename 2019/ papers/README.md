@@ -41,7 +41,7 @@
     37	2015-A Survey of Performance Modelingand Simulation Techniques forAccelerator-Based Computing.pdf
     38	2015-A Survey on 5G.pdf
     39	2015-Cloud Computing Applications forSmart Grid.pdf
-    40	2015-Cloud Computing Resource Scheduling and a Surveyof Its Evolutionary Approaches.pdf
+    40	2015-Cloud Computing Resource Scheduling and a Surveyof Its Evolutionary Approaches.pdf 陈玉霞 s810w0717
     41	2015-Memory andInformation Processingin Neuromorphic Systems.pdf
     42	2015-Partitioned Global Address Space Languages.pdf
     43	2015-RDF in the clouds.pdf
