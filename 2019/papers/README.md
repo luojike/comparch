@@ -59,7 +59,7 @@
     55	2016-Parallel Processing Systems forBig Data.pdf S1810W0799 刘云浩
     56	2016-Suitability Analysis of FPGAsfor Heterogeneous Platforms in HPC.pdf
     57	2016-The features hardware and architectures of data center networks A survey.pdf 
-    58	2017-5G.pdf
+    58	2017-5G.pdf S1810W0784 吴佳雯
     59	2017-Advances in the Quantum Theoretical Approach to ImageProcessing Applications.pdf   周苏（S1810W0757）
     60	2017-An Integrated Tutorial on InfiniBand.pdf
     61	2017-Architecture and applications for an All-FPGA parallel computer.pdf
