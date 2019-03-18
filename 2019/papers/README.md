@@ -72,7 +72,7 @@
     68	2018-A Manifesto for Future Generation Cloud Computing.pdf S1810W0797 朱帅
     69	2018-Approximate Communication Techniques for ReducingCommunication Bottlenecks in Large-Scale Parallel Systems.pdf
     70	2018-A Survey of Desktop Grid Scheduling.pdf  
-    71	2018-A Survey of Recent Trends in TestingConcurrent Software Systems.pdf
+    71	2018-A Survey of Recent Trends in TestingConcurrent Software Systems.pdf S1810W0760 曾斯炎
     72 	2018-A Survey on Deep Learning.pdf S1810W0762 黄芸
     73	2018-A Taxonomy and Future Directions for Sustainable CloudComputing.pdf
     74	2018-Auto-Scaling Web Applications in Clouds.pdf S1810W0739冯潇逸
