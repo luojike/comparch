@@ -13,7 +13,7 @@
      9	2000-An Introduction to Quantum Computing for Non-Physicists.pdf
     10	2001-Instruction Scheduling for Instruction LevelParallel Processors.pdf
     11	2002-Reconfigurable Computing.pdf
-    12	2003-A Survey of Processors with Explicit Multithreading.pdf
+    12	2003-A Survey of Processors with Explicit Multithreading.pdf     蔡伟
     13	2003-SURVEY OF PERFORMANCE ISSUES IN PARALLELDATABASE SYSTEMS.pdf
     14	2004-ASurvey of Peer-to-Peer Content Distribution Technologies.pdf
     15	2005-Design Synthesis and Testof Networks on Chips.pdf
