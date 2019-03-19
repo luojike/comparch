@@ -31,7 +31,7 @@
     27	2011-Exascale Opportunities and Challenges.pdf
     28	2012-A Survey of State Persistency in Peer-to-PeerMassively Multiplayer Online Games.pdf
     29	2012-Classificationof Massively Parallel ComputerArchitectures.pdf
-    30	2012-Parallel approaches to machine learning.pdf 申圆圆
+    30	2012-Parallel approaches to machine learning.pdf 申园园
     31	2012-SOAP Processing Performance and Enhancement.pdf
     32	2013-A Survey of Checker Architectures.pdf
     33	2013-Phase-Change Memory.pdf     S1810W0776 何弘
