@@ -4,7 +4,7 @@
 
      1	1990-A Survev of Parallel Computer Architectures.pdf
      2	1993-Workload Characterization.pdf
-     3	1994-RAID.pdf
+     3	1994-RAID.pdf  S181000895 李松鞠
      4	1995-Interrupt Processing in Concurrent Processors.pdf
      5	1996-A Survey of Heterogeneous  Computing.pdf
      6	1996-Parallel Architectures.pdf 
@@ -62,7 +62,7 @@
     58	2017-5G.pdf S1810W0784 吴佳雯
     59	2017-Advances in the Quantum Theoretical Approach to ImageProcessing Applications.pdf   周苏（S1810W0757）
     60	2017-An Integrated Tutorial on InfiniBand.pdf
-    61	2017-Architecture and applications for an All-FPGA parallel computer.pdf
+    61	2017-Architecture and applications for an All-FPGA parallel computer.pdf S181000909 付志远
     62	2017-A Survey of Power and Energy Predictive Models in HPC Systemsand Applications.pdf
     63	2017-A Survey of Techniques for Architectingand Managing GPU Register File.pdf
     64	2017-A Taxonomy and Survey of Cloud Resource Orchestration Techniques.pdf
@@ -71,7 +71,7 @@
     67	2018-A Checkpoint of Research on Parallel IO forHigh-Performance Computing.pdf S1810W0801 林海增
     68	2018-A Manifesto for Future Generation Cloud Computing.pdf S1810W0797 朱帅
     69	2018-Approximate Communication Techniques for ReducingCommunication Bottlenecks in Large-Scale Parallel Systems.pdf
-    70	2018-A Survey of Desktop Grid Scheduling.pdf  
+    70	2018-A Survey of Desktop Grid Scheduling.pdf   S181000872 陈维广
     71	2018-A Survey of Recent Trends in TestingConcurrent Software Systems.pdf S1810W0760 曾斯炎
     72 	2018-A Survey on Deep Learning.pdf S1810W0762 黄芸
     73	2018-A Taxonomy and Future Directions for Sustainable CloudComputing.pdf
