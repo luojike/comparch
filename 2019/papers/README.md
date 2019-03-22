@@ -63,7 +63,7 @@
     59	2017-Advances in the Quantum Theoretical Approach to ImageProcessing Applications.pdf   周苏（S1810W0757）
     60	2017-An Integrated Tutorial on InfiniBand.pdf
     61	2017-Architecture and applications for an All-FPGA parallel computer.pdf S181000909 付志远
-    62	2017-A Survey of Power and Energy Predictive Models in HPC Systemsand Applications.pdf
+    62	2017-A Survey of Power and Energy Predictive Models in HPC Systemsand Applications.pdf S1810W0789 张迎香
     63	2017-A Survey of Techniques for Architectingand Managing GPU Register File.pdf
     64	2017-A Taxonomy and Survey of Cloud Resource Orchestration Techniques.pdf
     65	2017-Distribution System Optimization onGraphics Processing Unit.pdf
