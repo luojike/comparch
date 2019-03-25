@@ -58,7 +58,7 @@
     54	2016-Interconnection Networks in Petascale Computer Systems.pdf
     55	2016-Parallel Processing Systems forBig Data.pdf S1810W0799 刘云浩
     56	2016-Suitability Analysis of FPGAsfor Heterogeneous Platforms in HPC.pdf 李进友（S1810W0783）
-    57	2016-The features hardware and architectures of data center networks A survey.pdf 
+    57	2016-The features hardware and architectures of data center networks A survey.pdf  S1810W0759 刘雨杰
     58	2017-5G.pdf S1810W0784 吴佳雯
     59	2017-Advances in the Quantum Theoretical Approach to ImageProcessing Applications.pdf   周苏（S1810W0757）
     60	2017-An Integrated Tutorial on InfiniBand.pdf
@@ -87,7 +87,7 @@
     83	2018-Graph Processing on GPUs.pdf   S1810W0756 陈东
     84	2018-Modern debugging.pdf
     85	2018-Quantum Computing is Getting Real.pdf
-    86	2018-Scheduling parallel tasks with energy and time constraints on multiple manycore processors in a cloud computing environment.pdf S1810W0759 刘雨杰
+    86	2018-Scheduling parallel tasks with energy and time constraints on multiple manycore processors in a cloud computing environment.pdf
     87	2019-AsurveyofarchitecturalapproachesforimprovingGPGPUperformanceprogrammabilityandheterogeneity.pdf
     88	2019-A Survey of Communication Performance Models for High-Performance Computing.pdf 
     89	2019-A Survey of On-Chip Optical Interconnects.pdf
