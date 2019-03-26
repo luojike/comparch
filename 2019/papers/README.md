@@ -66,7 +66,7 @@
     62	2017-A Survey of Power and Energy Predictive Models in HPC Systemsand Applications.pdf
     63	2017-A Survey of Techniques for Architectingand Managing GPU Register File.pdf
     64	2017-A Taxonomy and Survey of Cloud Resource Orchestration Techniques.pdf
-    65	2017-Distribution System Optimization onGraphics Processing Unit.pdf            蔡伟
+    65	2017-Distribution System Optimization onGraphics Processing Unit.pdf            
     66	2017-Survey on Real-Time Networks-on-Chip.pdf
     67	2018-A Checkpoint of Research on Parallel IO forHigh-Performance Computing.pdf S1810W0801 林海增
     68	2018-A Manifesto for Future Generation Cloud Computing.pdf S1810W0797 朱帅
