@@ -74,7 +74,7 @@
     70	2018-A Survey of Desktop Grid Scheduling.pdf   S181000872 陈维广
     71	2018-A Survey of Recent Trends in TestingConcurrent Software Systems.pdf S1810W0760 曾斯炎
     72 	2018-A Survey on Deep Learning.pdf S1810W0762 黄芸
-    73	2018-A Taxonomy and Future Directions for Sustainable CloudComputing.pdf
+    73	2018-A Taxonomy and Future Directions for Sustainable CloudComputing.pdf S1810W0737 杜亮
     74	2018-Auto-Scaling Web Applications in Clouds.pdf S1810W0739冯潇逸
     75	2018-Benchmarking Heterogeneous HPC SystemsIncluding Reconfigurable Fabrics.pdf
     76	2018-BigDataforInternetofThings.pdf 刘聪(S1810W0750)
@@ -96,6 +96,6 @@
     92	2019-Evaluationandmodelingofthesupercoreparallelizationpatterninautomotivereal-timesystems.pdf
     93	2019-Parallel Computing of Support Vector Machines.pdf  S1810W0791 刘桃忆
     94	2019-Post-Quantum Lattice-Based CryptographyImplementations.pdf
-    95	2019-Predicting New Workload or CPU Performanceby Analyzing Public Datasets.pdf S1810W0737 杜亮
+    95	2019-Predicting New Workload or CPU Performanceby Analyzing Public Datasets.pdf 
     96	2019-Towards the Decentralised Cloud.pdf S1810W0769 易子越
     97	2019-Web Portals for High-performance Computing.pdf S1810W0720 张磊
