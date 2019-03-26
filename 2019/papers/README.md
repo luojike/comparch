@@ -39,7 +39,7 @@
     35	2015-Accelerating Irregular Computations with HardwareTransactional Memory and Active Messages.pdf   S181000934 罗娟
     36	2015-Active Access.pdf
     37	2015-A Survey of Performance Modelingand Simulation Techniques forAccelerator-Based Computing.pdf
-    38	2015-A Survey on 5G.pdf
+    38	2015-A Survey on 5G.pdf S1810W0789 张迎香
     39	2015-Cloud Computing Applications forSmart Grid.pdf  S181000911 马文
     40	2015-Cloud Computing Resource Scheduling and a Surveyof Its Evolutionary Approaches.pdf 陈玉霞 s810w0717
     41	2015-Memory andInformation Processingin Neuromorphic Systems.pdf S1810W0788 陈健
