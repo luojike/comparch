@@ -13,7 +13,7 @@
      9	2000-An Introduction to Quantum Computing for Non-Physicists.pdf
     10	2001-Instruction Scheduling for Instruction LevelParallel Processors.pdf
     11	2002-Reconfigurable Computing.pdf
-    12	2003-A Survey of Processors with Explicit Multithreading.pdf               蔡伟
+    12	2003-A Survey of Processors with Explicit Multithreading.pdf               
     13	2003-SURVEY OF PERFORMANCE ISSUES IN PARALLELDATABASE SYSTEMS.pdf
     14	2004-ASurvey of Peer-to-Peer Content Distribution Technologies.pdf
     15	2005-Design Synthesis and Testof Networks on Chips.pdf
@@ -66,7 +66,7 @@
     62	2017-A Survey of Power and Energy Predictive Models in HPC Systemsand Applications.pdf
     63	2017-A Survey of Techniques for Architectingand Managing GPU Register File.pdf
     64	2017-A Taxonomy and Survey of Cloud Resource Orchestration Techniques.pdf
-    65	2017-Distribution System Optimization onGraphics Processing Unit.pdf            
+    65	2017-Distribution System Optimization onGraphics Processing Unit.pdf    蔡伟        
     66	2017-Survey on Real-Time Networks-on-Chip.pdf
     67	2018-A Checkpoint of Research on Parallel IO forHigh-Performance Computing.pdf S1810W0801 林海增
     68	2018-A Manifesto for Future Generation Cloud Computing.pdf S1810W0797 朱帅
