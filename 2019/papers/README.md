@@ -18,7 +18,7 @@
     14	2004-ASurvey of Peer-to-Peer Content Distribution Technologies.pdf
     15	2005-Design Synthesis and Testof Networks on Chips.pdf
     16	2006-Content-Addressable Memory (CAM) Circuits andArchitectures.pdf
-    17	2006-Quantum Computing.pdf
+    17	2006-Quantum Computing.pdf                                                 蔡伟
     18	2007-Quantum Cryptography.pdf
     19	2007-TRANSACTIONALMEMORY.pdf
     20	2008-Database Optimizations forModern Hardware.pdf
