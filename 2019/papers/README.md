@@ -18,7 +18,7 @@
     14	2004-ASurvey of Peer-to-Peer Content Distribution Technologies.pdf
     15	2005-Design Synthesis and Testof Networks on Chips.pdf
     16	2006-Content-Addressable Memory (CAM) Circuits andArchitectures.pdf
-    17	2006-Quantum Computing.pdf                                                 蔡伟
+    17	2006-Quantum Computing.pdf                                                 
     18	2007-Quantum Cryptography.pdf
     19	2007-TRANSACTIONALMEMORY.pdf
     20	2008-Database Optimizations forModern Hardware.pdf
@@ -53,7 +53,7 @@
     49	2016-A Survey of Techniques for Architecting and ManagingAsymmetric Multicore Processors.pdf
     50	2016-A Survey Of Techniques for ArchitectingDRAM Caches.pdf
     51	2016-A Survey of Techniques for Modeling andImproving Reliability of Computing Systems.pdf
-    52	2016-A Survey on GPU-Based Implementation ofSwarm Intelligence Algorithms.pdf
+    52	2016-A Survey on GPU-Based Implementation ofSwarm Intelligence Algorithms.pdf   蔡伟
     53	2016-A Survey on Thread-Level Speculation Techniques.pdf
     54	2016-Interconnection Networks in Petascale Computer Systems.pdf
     55	2016-Parallel Processing Systems forBig Data.pdf S1810W0799 刘云浩
