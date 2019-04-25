@@ -8,7 +8,7 @@
      4	1995-Interrupt Processing in Concurrent Processors.pdf
      5	1996-A Survey of Heterogeneous  Computing.pdf
      6	1996-Parallel Architectures.pdf 
-     7	1998-Models and Languages for Parallel Computation.pdf
+     7	1998-Models and Languages for Parallel Computation.pdf 李红旗(S1810W0779)
      8	1999-Reasoning about Grovers Quantum SearchAlgorithm Using Probabilisticwp.pdf
      9	2000-An Introduction to Quantum Computing for Non-Physicists.pdf
     10	2001-Instruction Scheduling for Instruction LevelParallel Processors.pdf
