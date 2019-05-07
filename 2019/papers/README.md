@@ -45,10 +45,10 @@
     41	2015-Memory andInformation Processingin Neuromorphic Systems.pdf S1810W0788 陈健
     42	2015-Partitioned Global Address Space Languages.pdf
     43	2015-RDF in the clouds.pdf
-    44	2016-60A Closer Look at GPGPU.pdf
+    44	2016-60A Closer Look at GPGPU.pdf 周桂华
     45	2016-Accelerating Architectural Simulation ViaStatistical Techniques.pdf S1810W0788 陈健
     46	2016-A non von Neumann Continuum Computer Architecture forScalability Beyond Moores Law.pdf
-    47	2016-A Survey and Evaluation of Data Center Network Topologies.pdf
+    47	2016-A Survey and Evaluation of Data Center Network Topologies.pdf 周桂华
     48	2016-A Survey of Emerging Interconnects for On-Chip Efficient Multicast and Broadcast in Many-Cores.pdf
     49	2016-A Survey of Techniques for Architecting and ManagingAsymmetric Multicore Processors.pdf
     50	2016-A Survey Of Techniques for ArchitectingDRAM Caches.pdf
