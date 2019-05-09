@@ -33,7 +33,7 @@
     29	2012-Classificationof Massively Parallel ComputerArchitectures.pdf
     30	2012-Parallel approaches to machine learning.pdf 申园园
     31	2012-SOAP Processing Performance and Enhancement.pdf
-    32	2013-A Survey of Checker Architectures.pdf
+    32	2013-A Survey of Checker Architectures.pdf 喻啸寒
     33	2013-Phase-Change Memory.pdf     S1810W0776 何弘
     34	2013-Survey of Energy-CognizantScheduling Techniques.pdf
     35	2015-Accelerating Irregular Computations with HardwareTransactional Memory and Active Messages.pdf   S181000934 罗娟
