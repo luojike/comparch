@@ -8,7 +8,7 @@
      4	1995-Interrupt Processing in Concurrent Processors.pdf
      5	1996-A Survey of Heterogeneous  Computing.pdf
      6	1996-Parallel Architectures.pdf 
-     7	1998-Models and Languages for Parallel Computation.pdf 李红旗(S1810W0779)
+     7	1998-Models and Languages for Parallel Computation.pdf 
      8	1999-Reasoning about Grovers Quantum SearchAlgorithm Using Probabilisticwp.pdf
      9	2000-An Introduction to Quantum Computing for Non-Physicists.pdf
     10	2001-Instruction Scheduling for Instruction LevelParallel Processors.pdf
@@ -27,7 +27,7 @@
     23	2009-Massively Parallel Processing.pdf
     24	2009-Multicore Software Technologies.pdf
     25	2009-Ten Ways to Waste a Parallel Computer.pdf
-    26	2010-Insulating the Scientific Programmer fromPerilous Parallel Architecture.pdf
+    26	2010-Insulating the Scientific Programmer fromPerilous Parallel Architecture.pdf   李红旗(S1810W0779)
     27	2011-Exascale Opportunities and Challenges.pdf
     28	2012-A Survey of State Persistency in Peer-to-PeerMassively Multiplayer Online Games.pdf
     29	2012-Classificationof Massively Parallel ComputerArchitectures.pdf
