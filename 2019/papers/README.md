@@ -8,7 +8,7 @@
      4	1995-Interrupt Processing in Concurrent Processors.pdf
      5	1996-A Survey of Heterogeneous  Computing.pdf
      6	1996-Parallel Architectures.pdf 
-     7	1998-Models and Languages for Parallel Computation.pdf
+     7	1998-Models and Languages for Parallel Computation.pdf 
      8	1999-Reasoning about Grovers Quantum SearchAlgorithm Using Probabilisticwp.pdf
      9	2000-An Introduction to Quantum Computing for Non-Physicists.pdf
     10	2001-Instruction Scheduling for Instruction LevelParallel Processors.pdf
@@ -27,7 +27,7 @@
     23	2009-Massively Parallel Processing.pdf
     24	2009-Multicore Software Technologies.pdf
     25	2009-Ten Ways to Waste a Parallel Computer.pdf
-    26	2010-Insulating the Scientific Programmer fromPerilous Parallel Architecture.pdf
+    26	2010-Insulating the Scientific Programmer fromPerilous Parallel Architecture.pdf  
     27	2011-Exascale Opportunities and Challenges.pdf
     28	2012-A Survey of State Persistency in Peer-to-PeerMassively Multiplayer Online Games.pdf
     29	2012-Classificationof Massively Parallel ComputerArchitectures.pdf
@@ -85,7 +85,7 @@
     81	2018-Fog Computing.pdf  王琛(S1810W0773)
     82	2018-FPGA Dynamic and Partial Reconfiguration.pdf 李进友（S1810W0783）
     83	2018-Graph Processing on GPUs.pdf   S1810W0756 陈东
-    84	2018-Modern debugging.pdf
+    84	2018-Modern debugging.pdf   李红旗(S1810W0779)
     85	2018-Quantum Computing is Getting Real.pdf
     86	2018-Scheduling parallel tasks with energy and time constraints on multiple manycore processors in a cloud computing environment.pdf
     87	2019-AsurveyofarchitecturalapproachesforimprovingGPGPUperformanceprogrammabilityandheterogeneity.pdf
