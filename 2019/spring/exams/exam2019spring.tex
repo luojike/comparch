@@ -1,0 +1,210 @@
+\documentclass[a4paper, 12pt, answers]{exam}
+%\documentclass[a4paper, 12pt]{exam}
+
+%\printanswers
+
+\usepackage{ctex}
+%\usepackage{tabulary}
+\usepackage{graphicx}
+
+\pagestyle{headandfoot}
+
+\firstpageheadrule
+\firstpageheader{并行计算机体系结构}{期末考试}{2019年6月11日}
+\runningheadrule
+\runningheader{并行计算机体系结构}{}{期末考试}
+\firstpagefooter{}{}{}
+\runningfooter{}{第 \thepage\ 页，共 \numpages 页}{}
+\runningfootrule
+
+\begin{document}
+
+\begin{center}
+
+\fbox{\fbox{\parbox{5.5in}{
+\vspace{0.1in}
+\centering
+\large 并行计算机体系结构期末考试\\2019年6月11日
+\vspace{0.1in}
+%Answer the questions in the spaces provided after the
+%question sheets. If you run out of room for the answers,
+%continue on the back of the page.
+}}}
+
+\end{center}
+
+\vspace{0.1in}
+\noindent
+\makebox[\textwidth]{姓名:\enspace\hrulefill}
+
+\vspace{0.2in}
+\noindent
+\makebox[\textwidth]{学号:\enspace\hrulefill}
+
+\vspace{0.2in}
+
+\centering
+
+	\hqword{题号}
+	\hpword{分数}
+	%\hbpword{得分}
+	\hsword{得分}
+	\htword{总分}
+
+	\addpoints
+
+\gradetable[h][questions]
+
+\vspace{0.5in}
+
+%\vspace{0.2in}
+%\centering\large{题目}
+%\vspace{0.2in}
+
+\pointname{分}
+
+\begin{questions}
+
+\question[15]
+请简要介绍计算机体系结构的Flynn分类并举例。
+
+\begin{solution}[12cm]
+%{ } \\
+	Flynn分类的示意图如下：（7分） \\
+	\includegraphics[width=0.9\textwidth]{FlynnsTaxonomy}
+
+	\begin{itemize}
+		\item{SISD: 单核处理器 (2分)}
+		\item{SIMD: GPU流处理器，向量处理器 (2分)}
+		\item{MISD: 多模冗余处理器 (2分)}
+		\item{MIMD: 多核处理器，集群系统 (2分)}
+	\end{itemize}
+
+\end{solution}
+
+
+\question[20]
+基于监听的MESI协议是一种经典的Cache一致性协议。请简要介绍MESI协议中各个状态的含义，并说明从I到S或E状态，以及从M到I或S状态转换的规则。 \\
+
+%\includegraphics[width=\textwidth]{mesi}
+
+\begin{solution}[12cm]
+%{ } \\
+	MESI状态含义是： \\
+	\begin{tabular}{| c | p{13cm} |}
+		\hline
+		M & 这行数据有效，数据被修改了，和内存中的数据不一致，数据只存在于本Cache中。(2分) \\ \hline
+		E & 这行数据有效，数据和内存中的数据一致，数据只存在于本Cache中。(2分) \\ \hline
+		S & 这行数据有效，数据和内存中的数据一致，数据存在于很多Cache中。(2分) \\ \hline
+		I & 这行数据无效。(2分) \\ \hline
+	\end{tabular}
+
+	从I到S状态转换是本地CPU发起读操作，且有其它CPU声明S状态时。(3分)
+
+	从I到E状态转换是本地CPU发起读操作，且没有其它CPU声明S状态时。(3分)
+
+	从M到I状态转换是发现总线上有其它CPU发出BusRdX，即为了写的总线读，本地CPU写回该行，并转到I状态。(3分)
+
+	从M到S状态转换是发现总线上有其它CPU发出BusRd，即总线读，本地CPU写回该行，并转到S状态。(3分)
+
+\end{solution}
+
+
+\question[20]
+GPU已经成为计算加速的常用部件，其加速计算的过程通常有3个阶段:（1）从主存拷贝输入数据到显存；（2）启动GPU上的kernel函数进行大规模数据并行计算，产生输出数据；（3）拷贝输出数据到主存。假设某个计算程序GPU上的kernel函数平均每个双精度浮点运算访问显存0.1字节，消耗输入数据0.01字节，产生输出数据0.001字节。如果该计算程序使用Nvidia的Tesla V100带NVLINK接口（技术规格见下表）来加速，那么性能瓶颈将会出现在那个阶段？如果采用PCIE接口的话，瓶颈又会出现在哪里？
+
+	\begin{table}[h]
+\centering
+\begin{tabular}{| c | l |}
+	\hline
+	双精度处理性能 & 7.8T(NVLINK), 7T(PCIE) FLOPS \\ \hline
+	NVLINK带宽 & 300GB/s \\ \hline
+	PCIE带宽 & 32GB/s \\ \hline
+	显存带宽 & 900GB/s \\ \hline
+\end{tabular}
+	\end{table}
+	\raggedright
+
+\begin{solution}[10cm]
+%{ } \\
+%\raggedright 假设单核串行执行时间为T。\\
+	瓶颈可以认为是计算过程中达到了最大带宽或处理性能的阶段。(2分)\\
+	使用NVLINK接口： \\
+	如果处理性能饱和，需要的显存带宽为 7.8T * 0.1 = 0.78 TB/s = 780 GB/s ，小于显存带宽(2分)\\
+	需要的输入带宽为 7.8T * 0.01 = 0.078 TB/s = 78 GB/s ，小于NVLINK接口带宽(2分)\\
+	需要的输出带宽为 7.8T * 0.001 = 0.0078 TB/s = 7.8 GB/s ，小于NVLINK接口带宽(2分)\\
+	因此瓶颈在GPU双精度处理阶段。(3分)
+	
+	使用PCIE接口： \\
+	如果处理性能饱和，需要的显存带宽为 7T * 0.1 = 0.7 TB/s = 700 GB/s ，小于显存带宽(2分) \\
+	需要的输入带宽为 7.8T * 0.01 = 0.07 TB/s = 70 GB/s ，大于PCIE接口带宽(2分)\\
+	需要的输出带宽为 7.8T * 0.001 = 0.0078 TB/s = 7 GB/s ，小于PCIE接口带宽(2分)\\
+	因此瓶颈在输入数据阶段。(3分)
+	
+
+\end{solution}
+
+
+\question[20]
+Infiniband互连网络由于其高带宽低延迟的特性，在超级计算机中得到了广泛应用。请问相对于以太网，Infiniband互连网络的主要靠什么做到高带宽低延迟的？请简要回答。 \\
+
+\begin{solution}[10cm]
+%{ } \\
+%网络拓扑结构特性表如下所示。
+%\begin{tabular}{| c | l |}
+%	\hline
+%	拓扑结构 & 网络直径 & 对剖宽度 & 成本 & 延迟 & 汇聚带宽 \\ \hline
+%	总线 & 1 & 1 & O(n+w) & O(1) & O(w) \\ \hline
+%	环 & n/2 & 2 & O(n+w) & O(d) & O(w) \\ \hline
+%	交叉开关 & 1 & sqrt(n) & O(n*n*w) & O(1) & O(n*w) \\ \hline
+%	树 & log(n) & 1 & O(n) & O(logn) & O(nlogn*w) \\ \hline
+%	Omega网络 & logn & logn & O(nlogn*w) & O(logn) & O(nlogn) \\ \hline
+%	超立方 & n & n/2 & O(nlogn/2) & O(d) & O(nlogn) \\ \hline
+%	网格 & 2*(sqrt(n)-1) & sqrt(n) & O(n) & O(sqrt(n)) & O(sqrt(n)) \\ \hline
+%	环形网格 & sqrt(n)-1 & 2*sqrt(n)& O(n) & O(sqrt(n)) & O(sqrt(n)) \\ \hline
+%\end{tabular}
+	Infiniband互连网络主要优势有两点：（1）采用切通（cut-through）式交换，比以太网存储转发式交换效率高，延迟小，见下图1；(10分)（2）采用RDMA技术，减少消息包在不同层缓存，进一步降低延迟，见下图2。(10分)
+
+\centering
+\includegraphics[width=\textwidth]{storeforewardvscutthrough}
+
+
+\includegraphics[width=\textwidth]{rdma}
+\raggedright
+
+\end{solution}
+
+
+\question[25]
+下图是当前排名第一和第二的超算Summit和Sierra半个计算结点结构图。这两个超算都采用了3层k度胖树作为互连拓扑，利用100Gbps的Infiniband交换机分别连接了4608个和4320个计算结点，每个结点2个22核Power9微处理器，6个或4个英伟达Volta~V100s计算加速卡。（1）请估算k的值；（2）请估算Summit和Sierra的峰值性能（可只考虑GPU性能）；（3）请分析Summit和Sierra的瓶颈所在。 \\
+
+\centering
+\includegraphics[width=0.9\textwidth]{summitandsierrahalfnode}
+\raggedright
+
+\begin{solution}[10cm]
+%{ } \\
+	\raggedright
+	胖树k值： \\
+	k度胖树可以连接 k3/4 个结点，故 Summit的 k 值 = 4068*4 开3次方，大约27，取偶数得28。Sierra的k值为26。 (9分)
+
+%	胖树带宽： \\
+%	Summit使用Infiniband的EDR连接，单端口可达100Gbps，故叶子层 100 Gbps，第一层交换带宽 27/2*100Gbps = 1.35Tbps，第二层应该与第一层一样，第三层带宽为 27*100Gbps = 2.7 Tbps (8分)
+
+	Summit峰值： \\
+	V100性能7 TFLOPS，单个结点6个加速卡总共 42 TFLOPS，总峰值性能 = 4608 * 42 TFLOPS = 194 PFLOPS。(6分)
+
+	Sierra峰值： \\
+	V100性能7 TFLOPS，单个结点4个加速卡总共 28 TFLOPS，总峰值性能 = 4320 * 28 TFLOPS = 121 PFLOPS。(4分)
+
+	瓶颈：显然瓶颈在通信和I/O带宽。(6分)
+
+
+
+\end{solution}
+
+
+
+\end{questions}
+
+\end{document}
