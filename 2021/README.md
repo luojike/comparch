@@ -2,5 +2,5 @@
 
 Please create your own directory with your register number under this directory
 
-then submit your source codes and reports to your own directory
+All your source codes and reports should be submitted to your own directory
 
