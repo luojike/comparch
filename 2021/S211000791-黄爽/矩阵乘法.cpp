@@ -7,6 +7,9 @@ using namespace std;
 void matrix_multiply_ijk(int **a, int **b, int **c, int n);
 void matrix_multiply_ikj(int **a, int **b, int **c, int n);
 void matrix_multiply_kij(int **a, int **b, int **c, int n);
+void matrix_multiply_jki(int **a, int **b, int **c, int n);
+void matrix_multiply_kji(int **a, int **b, int **c, int n);
+void matrix_multiply_jik(int **a, int **b, int **c, int n);
 void matrix_print(int **a, int n);
  
 int main(int argc, char *argv[])
@@ -45,7 +48,7 @@ int main(int argc, char *argv[])
 	
 	// 选择矩阵乘法方案 
 	//matrix_multiply_ijk(mat1, mat2, mat3, matrix_n);        // 矩阵乘法
-	for(int m=0;m<3;m++)
+	for(int m=0;m<6;m++)
 	{
 		if(m=0)
 		{
@@ -68,10 +71,34 @@ int main(int argc, char *argv[])
 			clock_t start_time = clock();                            // 开始的时钟数 	
 		matrix_multiply_kij(mat1, mat2, mat3, matrix_n);
 	    double elapseMills3 = (clock()-start_time) / clocks_PerMills; 
-	    cout << "kij run time: " << elapseMills3<< "ms" << endl;
-	    	
+	    cout << "kij run time: " << elapseMills3<< "ms" << endl;	
 		}
-		 cout << "clock_perMils: " << clocks_PerMills << endl;
+		
+		else if(m=3)
+		{
+			clock_t start_time = clock();                            // 开始的时钟数 	
+		matrix_multiply_jki(mat1, mat2, mat3, matrix_n);
+	    double elapseMills4 = (clock()-start_time) / clocks_PerMills; 
+	    cout << "jki run time: " << elapseMills4<< "ms" << endl;	
+		}
+		else if(m=4)
+		{
+			clock_t start_time = clock();                            // 开始的时钟数 	
+		matrix_multiply_kji(mat1, mat2, mat3, matrix_n);
+	    double elapseMills5 = (clock()-start_time) / clocks_PerMills; 
+	    cout << "kji run time: " << elapseMills5<< "ms" << endl;	
+		}
+		
+		else if(m=5)
+		{
+			clock_t start_time = clock();                            // 开始的时钟数 	
+		matrix_multiply_jik(mat1, mat2, mat3, matrix_n);
+	    double elapseMills6 = (clock()-start_time) / clocks_PerMills; 
+	    cout << "jik run time: " << elapseMills6<< "ms" << endl;	
+		}
+		
+		 cout << "clock_perMils: " << clocks_PerMills << endl;	 
+		 
 	}
 	 
 	//matrix_print(mat3, matrix_n);
@@ -143,7 +170,59 @@ void matrix_multiply_kij(int **a, int **b, int **c, int n)  // n表示方阵的阶数
 	} 
 }
 
+// 计算矩阵乘法 kji
+void matrix_multiply_kji(int **a, int **b, int **c, int n)  // n表示方阵的阶数 
+{
+	for(int k=0; k<n; k++)
+	{
+		for(int j=0; j<n; j++)
+		{
+			int sum = 0;
+			int i;
+			for(i=0; i<n; i++)
+			{
+				sum += a[i][k]*b[k][j];
+			}
+			c[i][j] = sum;
+		}
+	} 
+}
 
+// 计算矩阵乘法 jki
+void matrix_multiply_jki(int **a, int **b, int **c, int n)  // n表示方阵的阶数 
+{
+	for(int j=0; j<n; j++)
+	{
+		for(int k=0; k<n; k++)
+		{
+			int sum = 0;
+			int i;
+			for(i=0; i<n; i++)
+			{
+				sum += a[i][k]*b[k][j];
+			}
+			c[i][j] = sum;
+		}
+	} 
+}
+
+// 计算矩阵乘法 jik
+void matrix_multiply_jik(int **a, int **b, int **c, int n)  // n表示方阵的阶数 
+{
+	for(int j=0; j<n; j++)
+	{
+		for(int i=0; i<n; i++)
+		{
+			int sum = 0;
+			int k;
+			for(k=0; k<n; k++)
+			{
+				sum += a[i][k]*b[k][j];
+			}
+			c[i][j] = sum;
+		}
+	} 
+}
  
 // 输出矩阵
 void matrix_print(int **a, int n)
