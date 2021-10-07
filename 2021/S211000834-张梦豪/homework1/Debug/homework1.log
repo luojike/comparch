@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\研究生课程\高等体系结构\homework\homework1\main.cpp(28,30): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\研究生课程\高等体系结构\homework\homework1\main.cpp(44,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  homework1.vcxproj -> D:\研究生课程\高等体系结构\homework\homework1\Debug\homework1.exe
