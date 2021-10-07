@@ -1,0 +1,50 @@
+For n = 100, results are as follow:
+    for case ijk&jik , running time is 3.000000 ms.
+    for case kij&ikj , running time is 2.000000 ms.
+    for case jki&kji , running time is 2.000000 ms.
+
+For n = 200, results are as follow:
+    for case ijk&jik , running time is 17.000000 ms.
+    for case kij&ikj , running time is 16.000000 ms.
+    for case jki&kji , running time is 22.000000 ms.
+
+For n = 300, results are as follow:
+    for case ijk&jik , running time is 80.000000 ms.
+    for case kij&ikj , running time is 53.000000 ms.
+    for case jki&kji , running time is 88.000000 ms.
+
+For n = 400, results are as follow:
+    for case ijk&jik , running time is 146.000000 ms.
+    for case kij&ikj , running time is 126.000000 ms.
+    for case jki&kji , running time is 231.000000 ms.
+
+For n = 500, results are as follow:
+    for case ijk&jik , running time is 311.000000 ms.
+    for case kij&ikj , running time is 239.000000 ms.
+    for case jki&kji , running time is 470.000000 ms.
+
+For n = 600, results are as follow:
+    for case ijk&jik , running time is 510.000000 ms.
+    for case kij&ikj , running time is 416.000000 ms.
+    for case jki&kji , running time is 936.000000 ms.
+
+For n = 700, results are as follow:
+    for case ijk&jik , running time is 820.000000 ms.
+    for case kij&ikj , running time is 657.000000 ms.
+    for case jki&kji , running time is 1810.000000 ms.
+
+For n = 800, results are as follow:
+    for case ijk&jik , running time is 1278.000000 ms.
+    for case kij&ikj , running time is 978.000000 ms.
+    for case jki&kji , running time is 3191.000000 ms.
+
+For n = 900, results are as follow:
+    for case ijk&jik , running time is 1874.000000 ms.
+    for case kij&ikj , running time is 1400.000000 ms.
+    for case jki&kji , running time is 5283.000000 ms.
+
+For n = 1000, results are as follow:
+    for case ijk&jik , running time is 2670.000000 ms.
+    for case kij&ikj , running time is 1928.000000 ms.
+    for case jki&kji , running time is 8121.000000 ms.
+
