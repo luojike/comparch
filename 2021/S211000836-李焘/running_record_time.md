@@ -5,4 +5,3 @@ The j-k-i run time is: 73.8156s
 The k-i-j run time is: 19.6073s
 The k-j-i run time is: 70.6207s
 
-![image-20211007104302722](研一课程/体系结构/running_record_time.assets/image-20211007104302722.png)
