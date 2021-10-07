@@ -4,8 +4,8 @@
 #include <time.h>   // 包含时间测量的函数 
 using namespace std;
  
-void matrix_multiply_ijk(int **a, int **b, int **c, int n);
 
+void matrix_multiply_jki(int **a, int **b, int **c, int n);
 void matrix_print(int **a, int n);
  
 int main(int argc, char *argv[])
@@ -42,9 +42,9 @@ int main(int argc, char *argv[])
 	double clocks_PerMills = double(CLOCKS_PER_SEC) / 1000.0;   // 常数，每秒钟包含的时钟数 
 
 	clock_t start_time = clock();                            // 开始的时钟数 	
-	matrix_multiply_ijk(mat1, mat2, mat3, matrix_n);
+	matrix_multiply_jki(mat1, mat2, mat3, matrix_n);
 	double elapseMills = (clock()-start_time) / clocks_PerMills; 
-	cout << "ijk run time: " << elapseMills<< "ms" << endl;
+	cout << "jki run time: " << elapseMills<< "ms" << endl;
 	cout << "clock_perMils: " << clocks_PerMills << endl;
 	
 		//matrix_print(mat3, matrix_n);
@@ -63,22 +63,23 @@ int main(int argc, char *argv[])
 	return 0;
 }
 
-// 计算矩阵乘法 ijk
-void matrix_multiply_ijk(int **a, int **b, int **c, int n)  // n表示方阵的阶数 
+// 计算矩阵乘法 jki
+void matrix_multiply_jki(int **a, int **b, int **c, int n)  // n表示方阵的阶数 
 {
-	for(int i=0; i<n; i++)
+	for(int j=0; j<n; j++)
 	{
-		for(int j=0; j<n; j++)
+		for(int k=0; k<n; k++)
 		{
 			int sum = 0;
-			for(int k=0; k<n; k++)
+			int i;
+			for(i=0; i<n; i++)
 			{
 				sum += a[i][k]*b[k][j];
 			}
 			c[i][j] = sum;
 		}
 	} 
-}	
+}
 
 // 输出矩阵
 void matrix_print(int **a, int n)
