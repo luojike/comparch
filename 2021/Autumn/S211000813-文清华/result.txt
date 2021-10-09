@@ -1,0 +1,7 @@
+ijk_time = 710.927s
+jik_time = 540.688s
+jki_time = 1598.04s
+kji_time = 1592.77s
+kij_time = 277.645s
+ikj_time = 273.674s
+
