@@ -18,7 +18,7 @@ public:
 	}
 
 	void Alloc() {
-		// ж╝кЫрт╟я©у╪Д╥етз╤яиоё╛йгрРн╙╣╠MAXN╨э╢Сй╠ё╛у╩ио╥жеД╡╩акуБц╢╤Ю©у╪Д
+		// Д╧▀Ф┴─Д╩╔Ф┼┼Г╘╨И≈╢Ф■╬Е°╗Е═├Д╦┼О╪▄Ф≤╞Е⌡═Д╦╨Е╫⌠MAXNЕ╬┬Е╓╖Ф≈╤О╪▄Ф═┬Д╦┼Е┬├И┘█Д╦█Д╨├Х©≥Д╧┬Е╓ Г╘╨И≈╢
 		pkData = new LL *[MAXN];
 		for (int i = 0; i < MAXN; ++i) {
 			pkData[i] = new LL[MAXN];
@@ -27,7 +27,7 @@ public:
 
 	void Dealloc() {
 		if (pkData) {
-			// охйм╥е╣мн╛©у╪Дё╛тыйм╥е╦ън╛╣д
+			// Е┘┬И┤┼Ф■╬Д╫▌Г╩╢Г╘╨И≈╢О╪▄Е├█И┤┼Ф■╬И╚≤Г╩╢Г └
 			for (int i = 0; i < MAXN; ++i) {
 				delete[] pkData[i];
 			}
@@ -198,13 +198,3 @@ int main() {
 	begin = GetTickCount();
 	return 0;
 }
-/*
-1000
-ijk = 8657
-ikj = 3687
-kij = 3688
-2000
-ijk = 69547 ms
-ikj = 28000 ms
-kij = 29672 ms
-*/
