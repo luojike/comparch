@@ -2,7 +2,7 @@
 * @Author: apelj
 * @Date:   2021-9-29 16:54:41
 * @Last Modified by:   apelj
-* @Last Modified time: 2021-9-30 12:08:37
+* @Last Modified time: 2021-10-11 12:17:37
 */
 #include <iostream>
 #include <cmath>
@@ -116,8 +116,8 @@ public:
 
 	}
 };
-matrixMutiple m1(2000, 2000);
 int main() {
+	matrixMutiple m1(2000, 2000);                      
 	m1.matrixRand();
 	clock_t start, end;
 	double endTime;
