@@ -83,7 +83,8 @@ public:
 	void jki() {
 		for(int j = 0; j < row; j++)
 			for(int k = 0; k < col; k++)
-				for(int i = 0; i < row; i++)muti[i][j] += matrix1[i][k] * matrix2[k][j];
+				for(int i = 0; i < row; i++)
+					muti[i][j] += matrix1[i][k] * matrix2[k][j];
 	}
 	void kij() {
 		for(int k = 0; k < col; k++)
@@ -117,11 +118,11 @@ public:
 	}
 };
 int main() {
-	matrixMutiple m1(2000, 2000);                      
+	matrixMutiple m1(2000, 2000);
 	m1.matrixRand();
 	clock_t start, end;
 	double endTime;
-	std::ofstream fout("result.txt"); 
+	std::ofstream fout("result.txt"); // 1
 
 	start = clock();
 	m1.ijk();
@@ -144,8 +145,8 @@ int main() {
 	endTime = (double)(end - start) / CLOCKS_PER_SEC;
 	cout << "jik Total time : " << endTime  << " s" << endl;
 	fout << "jik Total time : " << endTime  << " s" << endl;
+	
 	start = clock();
-
 	m1.jki();
 	end  = clock();
 	endTime = (double)(end - start) / CLOCKS_PER_SEC;
@@ -157,8 +158,9 @@ int main() {
 	end  = clock();
 	endTime = (double)(end - start) / CLOCKS_PER_SEC;
 	cout << "kij Total time : " << endTime  << " s" << endl;
-	fout << "kij Total time : " << endTime  << " s" << endl; start = clock();
+	fout << "kij Total time : " << endTime  << " s" << endl; 
 
+	start = clock();
 	m1.kji();
 	end  = clock();
 	endTime = (double)(end - start) / CLOCKS_PER_SEC;
