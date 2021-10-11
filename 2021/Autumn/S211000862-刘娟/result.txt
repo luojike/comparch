@@ -1,0 +1,6 @@
+ijk Total time : 44.494 s
+ikj Total time : 27.788 s
+jik Total time : 41.145 s
+jki Total time : 62.392 s
+kij Total time : 28.794 s
+kji Total time : 57.557 s
