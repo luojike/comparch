@@ -1,7 +1,7 @@
 #include<iostream>
 #include <cstdlib>
 #include <ctime> 
-#define n 1000
+#define n 2000
 #define _for(i,j,k) for(int i=j;i<k;i++)
 #define for_(i,j,k)	for(int i=k-1;i>=j;i--)
 using namespace std;
