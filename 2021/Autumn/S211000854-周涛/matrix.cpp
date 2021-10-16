@@ -5,8 +5,8 @@
 using namespace std;
 
 
-#define ROW 2500;
-#define COL 2500;
+#define ROW 1500;
+#define COL 1500;
 
 void matrixRand(int** A,int rows,int cols) {
     time_t t;
