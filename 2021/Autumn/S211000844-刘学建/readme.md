@@ -1,3 +1,2 @@
-# 高等计算机体系结构作业文件夹说明
-
-1. assignments1为第一次作业文件夹。
+1. assignments1 is the first assignment directory;
+2. cellular_logic_in_memory_arrays.pptx is the class slides.
