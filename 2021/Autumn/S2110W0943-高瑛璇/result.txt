@@ -1,0 +1,36 @@
+for the size of 500:
+
+The run time of ijk is:0.669s
+The run time of jik is:0.509s
+The run time of kij is:0.447s
+The run time of ikj is:0.435s
+The run time of jki is:0.882s
+The run time of kji is:0.622s
+
+
+for the size of 1000:
+
+The run time of ijk is:5.614s
+The run time of jik is:4.661s
+The run time of kij is:3.286s
+The run time of ikj is:3.239s
+The run time of jki is:14.839s
+The run time of kji is:14.632s
+
+for the size of 1500:
+
+The run time of ijk is:30.631s
+The run time of jik is:21.253s
+The run time of kij is:12.525s
+The run time of ikj is:12.290s
+The run time of jki is:60.779s
+The run time of kji is:60.938s
+
+for the size of 2000:
+
+The run time of ijk is:67.460s
+The run time of jik is:64.787s
+The run time of kij is:26.234s
+The run time of ikj is:25.999s
+The run time of jki is:162.640s
+The run time of kji is:142.140s
