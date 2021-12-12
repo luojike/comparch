@@ -1,6 +1,6 @@
 # Repository for Computer Archiecture course 2021
 
-Please create your own directory with your register number under this directory, and submit your reports, presentations, source codes to your own directory
+Please create your own directory with your name and student ID under this directory, and submit your reports, presentations, source codes to your own directory
 
 ## Paper reading
 
